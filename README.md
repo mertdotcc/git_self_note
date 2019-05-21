@@ -1,3 +1,17 @@
 # git_self_note
 
-`asdasd`
+`ls`
+
+`mkdir`
+
+`cd`
+
+`rm`
+
+`pwd`
+
+`git init`
+
+`git clone`
+
+`git status`
