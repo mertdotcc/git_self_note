@@ -15,3 +15,7 @@
 `git clone`
 
 `git status`
+
+`git log`: displays information about the existing commits
+
+`git show`
