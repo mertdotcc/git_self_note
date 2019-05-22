@@ -1,22 +1,37 @@
 # git_self_note
 
-`ls`
+`$ git log --oneline`<br>
+`$ git log --stat`
 
-`mkdir`
+`$ git log -p` to see the changes<br>
+`$ git show`
 
-`cd`
+`$ git log -p fdf5493`
 
-`rm`
+`$ git add` add files from the working directory to the staging index
 
-`pwd`
+`$ git commit` take files from the staging index and save them in the repository
 
-`git init`
+`$ git diff` displays the difference between two versions of a file
 
-`git clone`
+`$ git commit -m "Initial commit"`
 
-`git status`: you should always run the _git status_ command. Especially when returning to a project after a period of time.
+`$ git diff`
 
-`git log`: displays information about the existing commits<br>
-  -Press `q` to __quit__ out of the log
+`$ touch project.docx` creates a word file named project
 
-`git show`: displays information about the given commit
+`$ git tag -a v1.0`
+
+`$ git log --decorate`
+
+`$ git tag -d v1.0` to delete a tag
+
+`$ git tag -a beta b552fa5` by default, we add tags to the last commit. but if we want to add a tag to a previous commit, we simply type the SHA of it.
+
+`$ git branch` will list out the branches in a repository
+
+`$ git branch sidebar` to create a branch named sidebar
+
+`$ git checkout sidebar` to switch from the master branch to sidebar branch
+
+`$ git branch -d sidebar` to delete a branch
