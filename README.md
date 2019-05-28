@@ -1,4 +1,4 @@
-# git_self_note
+# Git Reference Guide
 
 `$ git log --oneline`<br>
 `$ git log --stat`
@@ -35,3 +35,23 @@
 `$ git checkout sidebar` to switch from the master branch to sidebar branch
 
 `$ git branch -d sidebar` to delete a branch
+
+`$ git checkout -b richards-branch-for-awesome-changes` If you provide the `-b` flag, you can create a branch and switch to it all in one command.
+
+`$ git commit --amend` alter the most-recent commit
+
+`$ git reset` erases commits 
+
+***
+
+## GitHub & Collaboration
+
+`$ git remote` to manage remote repository
+
+`$ git push` send changes to the remote
+
+`$ git pull` retrieve updates from the remote 
+
+`$ git shortlog`  A quick way that we can see how many commits each contributor has added to the repository 
+
+`$ git shortlog -s -n`
